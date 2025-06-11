@@ -1,5 +1,5 @@
 n, x = map(int, input().split())
-c = [int(i) for i in input().split()]
+c = list(map(int, input().split()))
 ans = [1] + [0] * (10**7)
 for j in c:
     for i in range(x):
